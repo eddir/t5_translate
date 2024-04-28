@@ -1,0 +1,7 @@
+### a request to translate the provided text into the target language. The response will be a JSON object containing the translated text.
+POST http://localhost:5000/translate
+Content-Type: application/json
+
+{
+    "text": "Hello, how are you?"
+}
